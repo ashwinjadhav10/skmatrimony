@@ -1,0 +1,53 @@
+body{background-color: #eee;}
+.container{padding: 0px;background-color: #0987ad} 
+.section-main{}
+
+
+/*Navigation*/
+.navbar-default {background-color: #fff;border-color: #fff;}
+.navbar{border-radius: 0px;margin-bottom: 0px;}
+.navbar-default .navbar-nav >li:last-of-type{padding-top: 3px;padding-bottom: 10px;}
+
+.navbar-default .navbar-nav >li >a >img{padding-right: 5px}
+
+/*Left side navbar*/
+.navbar-fixed-left {background-color: #0987ad;border-radius: 0; height: 100%;}
+.navbar-fixed-left .navbar-nav > li {float: none;}
+.navbar-fixed-left .navbar-nav {float: none;}
+.navbar-fixed-left .navbar-nav > li >a{color:#fff;font-size: 14px;font-weight: 500}
+.navbar-fixed-left .navbar-nav > li{border-bottom: 1px dotted #fff;}
+.nav>li>a:focus, .nav>li>a:hover, .nav>li>a:active{background-color: #016e8f}
+
+
+/*Main*/
+.left-panel{background-color: #28a2c7;}
+.content-wrap{padding: 45px 45px 25px 45px;}
+
+
+/*Panel Table*/
+.panel-table .panel-body{padding:0;}
+.panel-default>.panel-heading{background-color: #fff}
+.panel-table .panel-body .table-bordered{border-style: none;margin:0;}
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {}
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {border-right: 0px;}
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {border-left: 0px;}
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{border-bottom: 0px;}
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{border-top: 0px;}
+.panel-table .panel-footer .pagination{ margin:0; }
+.panel-table .panel-footer{background-color: #fff}
+.panel-table .panel-footer .col{line-height: 34px;height: 34px;}
+.panel-table .panel-heading .col h3{line-height: 30px; height: 30px;}
+.panel-table .panel-body .table-bordered > tbody > tr > td{  line-height: 34px;}
+
+/*Dashboard*/
+.menu-wrap{padding-top: 20px;padding-bottom: 20px}
+.menu{ padding: 20px;border: 1px solid #d0d0d0;}
+.menu img{padding-bottom: 10px; }
+.menu p{font-weight: 600;text-transform: uppercase;color: #016e8f}
+
+/*Footer*/
+.footer-main{font-size: 9px;padding: 10px 0px 0px 0px;background-color: #fff}
+
+

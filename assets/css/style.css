@@ -1,0 +1,392 @@
+/* YOUR CUSTOM STYLES */
+.navbar-nav>li>a, .contactF {
+    color: #c51c1c;
+}
+nav>li>a:focus, .nav>li>a:hover, .contactF:hover {
+    color: #eb9e21;
+}
+.dark {
+    background-color: #c51c1c;
+}
+.find {
+    background-color: #434242;
+    border-color: transparent;
+}
+.contact {
+    background-color: #ffffff;
+    background-image: url(../images/Header_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	height:100%;
+    width: 100%;
+	
+}
+.disF{
+	display:flex;
+}
+.commonI {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+.mainHeader {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #ffffffe8;
+}
+.logo-slogan {
+    height: 140px;
+	background-color: transparent;
+}
+.navMain{
+	position: absolute;
+    width: 100%;
+    top: 90px;
+    text-align: center;
+	background: none;
+	z-index: 999;
+}
+.navbar-nav {
+    display: inline-block;
+}
+.title.headerLogo {
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+.logoimg{
+	height: 80px;
+    width: auto;
+    margin:0 auto;
+}
+.feature-cont {
+     border: 0px solid #95191e; 
+    font-size: 22px;
+    padding-left: 0;
+    background-color: #ffffffd6;
+    border-radius: 10px;
+}
+#ganesha {
+    width: 110px;
+}
+#gajanan-maharaj {
+    width: 110px;
+}
+#mainBg {
+    background-image: url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 0;
+    background-position: center;
+	padding: 0px 0 76px;
+}
+
+.headerBG{
+    background-image: url(../images/Header_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	height:140px;
+	position: absolute;
+    z-index: 999;
+    width: 100%;
+	top: 0;
+}
+.featureBg {
+    background-image: url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 0;
+    background-position: center;
+	padding: 0px 0 76px;
+}
+.marT155{
+	margin-top:135px;
+}
+.pagelogo {
+    margin: 40px auto;
+}
+.pageLogo.text-center {
+    padding: 20px 0;
+}
+.max70{
+	max-width:70%;
+	margin:50px auto;
+}
+.footerLogoImg{
+	margin: 20px auto;
+    height: 120px;
+
+}
+.footerMenu .navbar-nav>li>a, .contactF {
+    //color: #fff;
+	    font-weight: normal;
+}
+.footerMenu .navbar-nav{
+	border-top:1px solid #c51c1c;
+	border-bottom:1px solid #c51c1c;
+	padding:5px 0px;
+}
+.counter h3{
+    min-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #c51c1c;
+    font-weight: bold;
+    padding: 5px 0;
+    border-radius: 5px;
+    max-width: 200px;
+	letter-spacing: 5px;
+}
+.counter h4{
+    font-family: 'Myriad Pro', Calibri, sans-serif;
+}
+.counter.text-center {
+    margin: 20px 0;
+}
+.commonFooterIcon {
+    margin: 0px 5px 30px;
+}
+.copyText p {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-top: 0px;
+	font-family: 'Myriad Pro', Calibri, sans-serif;
+}
+.footerDiv {
+    padding: 0 0 50px;
+    background-color: #ffffffe8;
+}
+.grey-bar {
+    height: 50px;
+    background-color: #c51c1c;
+}
+.grey-bar h1 {
+    margin-top: 0;
+    padding-top: 5px;
+    color: #f6e4d6;
+}
+.max1000{
+    max-width: 965px;
+    margin: 0 auto !important;
+}
+.director{
+	font-size:16px;
+}
+.marB10{
+	margin-bottom:10px;
+}
+.fullwidth{
+	width:100%;
+	float:left;
+}
+.bgDark{
+    background-color: #c51c1c;
+    color: #fff;
+}
+.commonBtn{
+    min-width: 150px;
+    color: #fff;
+    background-color: #ec9e22;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+	outline:none;
+}
+.commonBtnsmall{
+	color: #fff;
+    background-color: #ec9e22;
+    border: none;
+    font-size: 14px !important;
+    letter-spacing: 3px;
+	outline:none;
+	font-family: 'MyriadPro', sans-serif;
+	height: 40px;
+    margin-top: -6px;
+}
+.form-wrap .form-horizontal .control-label {
+    text-align: inherit;
+    color: #c51c1c;
+}
+.control-label {
+    text-align: inherit;
+    color: #c51c1c;
+}
+.search-data label {
+    color: #c51c1c;
+}
+.bottom #idSearch .myriad {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 15px;
+    color: #c51c1c;
+    font-weight: bold !important;
+}
+.search-data .find {
+    position: initial;
+    border-radius: 4px;
+    padding: 1px 0px 0 0px;
+    height: 48px;
+    width: 121px;
+    font-weight: 500;
+    font-size: 32px;
+	background-color: #ec9e22;
+}
+.paddTB50{
+	padding:50px 0px;
+}
+.padd25{
+    padding: 0 25px;
+}
+
+
+
+.item {
+    display: inline-block;
+    padding: .25rem;
+    width: 100%;
+}
+.well {
+    position: relative;
+    display: block;
+}
+.well-section {
+    background-color: #ffffff87;
+    border: 3px solid #f3a03e;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    font-size: 14px;
+    padding: 0px;
+	overflow:hidden;	
+}
+.well-section > p {
+    margin-left: 0px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 0px solid #6c040b;
+    padding-bottom: 0px;
+    background-color: #c51c1c;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
+.well-section > p  a {
+    color: #fff;
+}
+.well-section a {
+    color: #6c040b;
+    transition: all ease-in-out .3s;
+    padding-bottom: 3px;
+    text-decoration: underline;
+}
+.well-section img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.well-section .col-md-12 p {
+    margin-bottom: 0px;
+}
+.scrollDiv {
+    width: 100%;
+    float: left;
+    max-height: 250px;
+    overflow-y: auto;
+    min-height: 250px;
+}
+
+/*responsive start*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    
+    
+.text-right.commonI, .text-left.commonI {
+    display: none;
+}
+    
+    .logo-slogan {
+    height: 80px;
+}
+.logo-slogan div:nth-child(2) {
+    padding-top: 5px;
+}
+    .logoimg {
+    height: 55px;
+}
+    .headerBG {
+    height: 80px;
+}
+    .marT155 {
+    margin-top: 80px;
+}
+    .navMain {
+    top: 16px;
+    right: 0px;
+}
+    .navbar-collapse.in, #myNavbar, .collapse {
+    background-color: #fffffff2;
+    padding: 25px 0px;
+ 
+}
+    .navbar-nav>li>span {
+    display: none !important;
+}
+    .navbar-nav .visible-sm.visible-xs {
+    display: none !important;
+}
+
+    
+    .pagelogo {
+    margin: 10px auto 0px;
+    width: 50%;
+}
+    .max70 {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 18px;
+}   
+    .contact {
+    padding-top: 0px;
+}
+    .contact a {
+    color: #c51c1c;
+    word-break: break-all;
+    font-size: 16px;
+}
+    .marB10.text-left {
+    text-align: center;
+}
+    .marB10.text-left img{
+    height: 20px;
+}
+    #mainBg {
+    background-position: right;
+}
+    .text-wrap img {
+    margin: 15px 0;
+}
+    .copyText p {
+    font-size: 14px;
+}
+    .title.headerLogo {
+    height: 75px;
+}
+    .grey-bar h1 {
+    padding-top: 13px;
+}
+    .form-wrap .form-control {
+    margin-bottom: 10px;
+}
+    .commonBtn {
+    font-size: 14px;
+}
+
+}

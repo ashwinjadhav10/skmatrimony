@@ -1,0 +1,284 @@
+/*fonts*/
+@font-face {
+  font-family: 'marathi';
+  src: url('fonts/DVSR0ntt.eot'); /* IE9 Compat Modes */
+  src: url('fonts/DVSR0ntt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/DVSR0ntt.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/DVSR0ntt.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/DVSR0ntt.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/DVSR0ntt.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/*global*/
+body{
+	font-family:'marathi', sans-serif; font-size: 20px; 	width: 100%;  -webkit-box-sizing: border-box;       -moz-box-sizing: border-box; box-sizing: border-box;
+}
+h5{font-weight: 600;margin-top: 0; margin-bottom: 15px; font-size: 15px;}
+.logo-slogan{background-color: #fff;height: 157px;}
+.custom-nav{background:url('../images/menu-gradient.png'); background-repeat: no-repeat;background-size: 100% 100%; padding-right: 40px;}
+#gajanan-maharaj{position: relative; width:145px; top:16px;}
+#ganesha{position: relative; margin-left:20px; width:145px; top:16px;float:right}
+.title{padding-top: 4px; width: 250px;}
+.sub-title{margin-top:2px;margin-bottom: 0px; font-size: 40px; padding-right: 7px;}
+.navbar-nav{text-align:center;float: none;}
+.temp{font-size: 15px;}
+.navbar-nav>li>a, .contactF{color: #c51c1c;font-weight: 600;font-size: 24px;padding-right: 0;padding-left: 0;margin-left: 0px;display: inline-block;}
+.nav>li>a:focus, .nav>li>a:hover, .contactF:hover{background-color: transparent;color: #000;}
+.navbar-nav>li>span{display: inline-block;padding-left: 14px;padding-right: 14px;position: relative; top:2px;}
+h3{margin-top: 30px;}
+.strip{height: 8px;}
+.contact{background-color: #c22127;color: #c51c1c;}
+.contact a{color: #c51c1c}
+a:hover{text-decoration: none;}
+.dark{background-color: #95191e;padding-top: 12px; padding-bottom: 10px;}
+.dark img{padding-left: 10px; padding-right: 15px;}
+.number, .dark{font-size: 24px; letter-spacing: 0.8px;}
+.myriad{font-family: 'MyriadPro', sans-serif; }
+footer .myriad a{font-size: 17px; letter-spacing: initial; font-weight: 300;position: relative; top:-2px;}
+footer .myriad img{padding-left: 8%;}
+.contact p{ font-size: 28px;margin-bottom: 0;padding-top: 9px;}
+.copyright{height: 52px; background-color: #fff;display: flex;align-items: center; justify-content: center;font-size: 13px;font-weight: 500;}
+.one{width: 9%;} .two{width: 24%;} .three{width: 8%;} .four{width: 28%;} .five{width: 31%;}
+.middle{width: 100%;max-width: 1140px;margin: auto;}
+/*home*/
+#mainBg{background-image: url('../images/main-bg.jpg');background-repeat: no-repeat;background-size: cover;height: 512px;margin-bottom: -43px;}
+.fa{font-size: 17px;padding-left: 2px;}
+.navbar-nav>li>.dropdown-menu{background-color: #f49f3b;}
+.dropdown-menu>li>a{color:#6b030a;font-weight: 600; }
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{color: #000;background: none;}
+.couple{position: absolute;    left: 32%;    top: -84px;    width: 68%;}
+.text-wrap{position: relative;}
+.text-wrap img{max-width:100%;}
+.text-one, .text-two{position: absolute; color: #fff; font-size: 27px;bottom:17px;}
+.text-one{right:30.5%;}
+.text-two{right:25.5%;}
+.rightWrap img.red-img{padding: 15px 0;}
+.form-data{padding:0;width: 100%;  text-align: initial;  margin: auto;border-radius: 8px;}
+.form-data .search, .form-data .search img{padding: 0;padding-right:3px;border-radius: 5px;}
+.form-data label{margin-bottom: 0;color: #fff;font-weight: 600;padding-left: 5px;}
+.form-data .form-control{font-size: 22px;font-weight: 600;color: #000;height: 29px;padding: 3px 0 0px 5px;  margin-left: -5px;}
+.btn-primary{color: #000;  background-color: #fff;    padding-bottom: 3px;    border-color: #fff; font-weight: 600;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active,.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{ color: #000;  background-color: #fff; border: 1px solid transparent;}
+select{margin-left:-2px; font-family: 'MyriadPro', sans-serif !important; font-size: 16px !important; font-weight: 400 !important; }
+select option{font-size: 15px;}
+.glyphicon-menu-down{font-size: 11px;padding-left: 3px;}
+.to{font-size: 16px;}
+.place{padding-left: 5px;}
+.dropdown-menu li,.places, .num{font-weight: 600;line-height: 19px;    padding-top: 6px;    font-size: 23px;}
+.num .glyphicon{padding-left: 0;top: -1px;  padding-right: 0px;    right: 3%;    position: relative;}
+.form-group{ padding-top: 3px;}
+.find{background-color: #2e2e2e;color: #fff;border-color: #000;    padding: 14px 21px 5px 12px; position: absolute;right:0%;top:0%;  border-bottom-left-radius: 0;    border-top-left-radius: 0;  font-size: 24px;}
+.btn-default:hover{border-color: #e6e6e6;}
+.index-form{position: absolute;right: 4%;width: 66%;}
+/*features*/
+.grey-bar{height: 96px;background-color: #eeeeee;}
+.grey-bar h1{margin-top: 0;    padding-top: 3%;color: #6b030a;}
+.feature-cont{border: 1px solid #95191e;    font-size: 22px; padding-left: 0; background-color: #fcefe0;}
+.feature-cont ol>li{padding-left: 5px;}
+.feature-cont span.myriad{font-size: 15px;font-weight: 600;}
+.panels .form-group{padding-top: 0;margin-bottom: 10px;}
+.panels {padding-left: 70px;}
+.panels .form-data .search,.panels .form-data #search{background-color: #f4a446;color: #6b030a; font-size: 30px;
+    padding-left: 12px;text-align: left;    padding-top: 3px;    border-radius: 6px 6px 0 0;}
+.panels .form-data .find{width: 100%;margin-left: 0;padding: 9px 0 3px 0;border-radius: 0 0 6px 6px;position: initial;}
+.panels .form-data .btn-primary{width: 100px;position: relative;text-align: left;}
+.panels .form-data .glyphicon{position: absolute; right:6%;top:34%; font-size: 10px;font-weight: 900;}
+.panels .to{position: relative;    top: 5px;}
+
+/*search*/
+.search-data label{color: #000;}
+.search-data .find{position:initial;border-radius: 4px;padding: 1px 0px 0 0px;height: 48px;width: 121px;font-weight: 500;font-size: 36px;}
+.search-data .btn-primary, .search-data #edu{width: 100%; border:1px solid #e7c4b9;height: 30px;margin-left: -2px;}
+.search-data #edu{border-radius: 4px;}
+.search-data #message{border-radius: 4px;border:1px solid #e7c4b9;}
+.search-data #mSearch.col-md-9{padding-left: 44px;padding-top: 17px;}
+.search-data .form-group{margin-bottom: 7px;}
+.search-data .form-group .col-md-2, .search-data .form-group .col-md-1{padding-left: 0;}
+.search-data .form-default{padding-top: 25px;padding-bottom: 15px;}
+.bottom .find{position: relative;top: -6px;line-height: 0.4; height: 41px;    margin-left: 10%;}
+.bottom #text{height: 41px;position: relative;top:-6px;    border: 1px solid #e7c4b9;}
+.bottom #idSearch .myriad{font-size: 16px; font-weight: 500;padding-left: 15px;}
+.feature-cont .bottom .find .myriad {font-size: 19px;font-weight: 400;}
+.ui-timepicker-am, ui-timepicker-pm, .ui-timepicker-list{font-family: 'MyriadPro', sans-serif;font-size:14px;}
+.popover{background-color: #ec971f; color: #fff;font-size: 16px;}
+.popover.top>.arrow:after{border-top-color: #ec971f;}
+/*var*/
+.coupleT{padding-right: 0;}
+.coupleT .bg-color{background-color: #fffdfc;padding-top: 10px;}
+.coupleT .table>thead:first-child>tr:first-child>th{padding-left: 45px;padding-top: 20px;font-weight: 400; }
+.table>tbody>tr>td{padding-left: 45px; font-family: 'MyriadPro', sans-serif; font-size: 14px; }
+.modal-content,.success, .success .feature-cont{ font-family: 'MyriadPro', sans-serif; font-size: 14px; }
+.regiW{width: 100px;} .dateW{width: 111px;} .dobW{width: 122px;}
+.coupleT .table>thead:first-child>tr:last-child>th.addW{padding-right: 127px;}
+.feature-cont ol li {font-size: 16px; font-weight: 500; line-height: 1.6;}
+/* vadhu var*/
+.modal-footer{text-align: center;}
+.modal-header{border-bottom: none;padding-bottom: 0; padding-top: 30px;}
+.modal-header h4{padding-left: 42px;}
+.modal-body{padding: 25px;}
+.modal-open .modal,.modal-open, .modal{background-color: rgba(250,176,88,0.8);}
+.modal-content{box-shadow: none;border: 1px solid #df9761;}
+.modal-bg-content{border: 1px solid #d7a8a9; background-color: #fcefe0; padding-top: 23px;padding-bottom: 15px;border-radius: 4px;}
+.img-resp{ width: 100%; max-width: 475px;}
+.left{padding-left: 0;padding-right: 7.5px;}
+.right{padding-right: 0;padding-left: 7.5px;}
+.right .m12, .left .m12{padding-left: 20px;}
+.right .m12 .table>tbody>tr>td{width: 50%;}
+.right .m12{ min-height: 299px; word-wrap: break-word;}
+{padding-right: 0;padding-left: 7.5px;}
+.modal-bg-content .table>tbody>tr>td{border-top-color: #d7a8a9; padding: 4px 0 4px 0px;border: none;}
+.modal-bg-content .table>tbody>tr>td:nth-child(2){word-break: break-all;padding-left: 4px;    width: 72%;}
+.table-bordered{border: 1px solid #d7a8a9;}
+
+/*---------- Nivedita CSS for enroll form -----------*/
+.form-wrap{padding: 40px 68px 0px 110px;}
+.form-wrap .form-horizontal ,.well{font-family: 'Myriad Pro', Calibri, sans-serif;    font-size: 15px; }
+.form-wrap .form-horizontal .control-label{font-weight: 400}
+.form-wrap .well p{margin: 0px;}
+.form-wrap .form-group .col-sm-2,.form-group .col-sm-10{padding: 0px;}
+.form-wrap .form-control{    height: 31px;  padding: 3px 0 0px 5px;}
+.form-wrap .form-horizontal .control-label{text-align: inherit;}
+.form-wrap .form-group select> option{font-size: 15px;padding: 10px;}
+.form-wrap textarea{   height: auto !important; resize: none;}
+.form-wrap .wrap-data{padding-top: 20px;}
+.edit-profile img{ width:100%; max-width: 475px; border: 1px solid #eee;}
+.edit-profile {padding-bottom: 20px;}
+.edit-profile-btn input[type=file] {  display: inline-block;}
+.edit-profile-btn .upload-btn { background-color: #2e2e2e;color: #fff;border-color: #000;}
+
+
+/* End Nivedita CSS for enroll form*/
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background: none;}
+/*Response*/
+#respForm .table>tbody>tr>td, #respForm .table>tbody>tr>th, #respForm .table>tfoot>tr>td, #respForm .table>tfoot>tr>th, #respForm .table>thead>tr>td, #respForm .table>thead>tr>th{ border-top:none;padding-left: 15px;}
+#respForm .table{margin-bottom: 23px;}
+#respForm .table>tbody>tr>td.lastE{ border-top:none;padding-left:7px;}
+.contactD p {font-size: 15px; font-weight: 400; line-height: 1.2;}
+.contactD .number {font-size: 14px; font-weight: 600; color: #333; text-decoration: none;}
+.contactD .myriad .col-md-12 {display: flex; justify-content: center;}
+
+/*Photo*/
+.photo label{padding-top: 8px;}
+
+@media (min-width: 1200px){
+    .container{width:100%; max-width: 1400px;}
+    .index-form {width: 67%;}    
+}
+@media (max-width:1367px){
+    .index-form{width: 70%;}
+}
+@media (max-width:1236px){
+    .index-form{width: 75%;}
+    .one {width: 0%;} .two{width: 33%;} .three{width: 0%;} .four{width: 38%;} .five{width: 22%;}
+    .text-two{right:22.5%;}
+}
+@media(max-width:991px){
+    .navbar-header {float: none;}
+    .table-responsive{border: none;}
+    .navbar-left,.navbar-right {float: none !important;}
+    .navbar-toggle {display: block;  background-color: #b51621;margin-right: 0px;}
+    .navbar-collapse{border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); float: none !important; }
+    .navbar-collapse.in,#myNavbar, .collapse{transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;}
+    .navbar-fixed-top {top: 0;border-width: 0 0 1px;}
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav {float: none!important;margin-top: 7.5px;width: 100%;    margin: 0;}
+    .navbar-nav>li {float: none;}
+    .collapse.in{display:block !important;}
+    .navbar-toggle .icon-bar{background-color: #fff;}
+    .modal-sm {width: 90%;}
+    .right .m12 {min-height: 382px;}
+    .container{width: 100%; padding: 0;}
+    .content{padding-left: 30px;padding-right: 30px;}
+    .grey-bar{padding-left: 30px;}
+    .logo-slogan{height: auto;}
+    .title{text-align: center;}
+    .title .img-resp{max-width: 82%;padding-top: 20px;padding-bottom: 10px;}
+    .text-right.sub-title{text-align: center; font-size: 34px;}
+    #gajanan-maharaj{left: 16%;}
+    #ganesha{right: 16%;}
+    .logo-slogan .col-md-4.col-sm-3.text-center{padding-left: 0;}
+    .navbar-nav .visible-sm.visible-xs{display: inline-block !important;}
+    .col-md-7.text-center.rightWrap{padding-top: 40%;}
+    #mainBg{height: 805px; }
+    .couple {left: 19%;top: -58px;width: 60%;}
+    .navbar-collapse.in, #myNavbar, .collapse{padding-bottom: 24px;}
+    .contact{padding-top: 37px;}
+    .one {width: 4.3%;}
+    .two {width: 42%;}
+    .three {width: 0%;}
+    .four {width: 45%;}
+    .five {width: 100%;padding-top: 15px;padding-bottom: 15px;}
+    .custom-nav .col-md-9{z-index: 0 !important;}
+    .panels{padding: 30px 0 0 0;}
+    .select option{width:150px;}    
+	.content .form-wrap{padding: 20px 0px 20px 0px;}
+	.form-wrap .form-horizontal .form-group .col-md-6{padding-top: 8px;}
+    .form-wrap .form-horizontal .form-group { margin-bottom: 0px; }
+	.form-wrap .wrap-data {padding: 20px;}
+	.wrap-data .well{ margin-bottom: 0px; }
+    .dropdown-menu li a{padding-left: 40px;}
+    .caret{margin-left: 6px;}
+    .dropdown .dropdown-toggle{margin-left: -5px;}
+    .navbar-nav .open .dropdown-menu>li>a{padding-left: 37px;color: #6b030a;font-weight: 600;}
+    .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover{background: none;}
+    .navbar-nav .open .dropdown-menu{position: static;float: none;    background-color: transparent;-webkit-box-shadow:none; box-shadow:none;border: 0; }
+    .index-form {position: initial;  width: 100%;}
+    .index-form select[name|='city']{width: 104px;}
+    .index-form .find{padding: 14px 11px 5px 7px;}
+    .index-form label,.index-form .form-control{padding-left: 0px;font-size: 17px;}
+    .index-form .search img, .index-form .search{padding-right: 0px;  }
+    .index-form select{font-size: 14px !important; }
+	.custom-nav{ background-size: cover;}
+}
+
+@media (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    .container{width: 100%; padding: 0;}
+    #gajanan-maharaj{left: 18%;}
+    .content{padding-left: 60px;padding-right: 60px;}
+    .grey-bar{padding-left: 60px;}
+    .custom-nav{padding-right: 12px;}
+    .navbar-nav>li>span{padding-left: 8px;padding-right: 7px;}
+    #mainBg .col-md-5{width:35%}
+    #mainBg .col-md-7{width:65%;}
+    #mainBg .form-data{position: absolute; bottom: 48px; width: 84%;}
+    .couple{top: -31px;width: 80%;}
+    .text-two{right: 20.5%;}
+    .panels{padding-left: 26px;padding-right: 0;}
+    .one { width: 4%;} .two {width: 29%;} .three {width: 3%;} .four { width: 34%;} .five { width: 30%;}
+    .form-wrap {padding: 40px 0px 0px 2px; }
+    .table>tbody>tr>td,.coupleT .table>thead:first-child>tr:first-child>th{ padding-left: 27px;}
+    .navbar-collapse{padding-right: 0;}
+}
+@media(max-width:667px){
+	#ui-datepicker-div{width:70%;font-size: 17px;}
+	.ui-datepicker th{padding: 4px 2px;}
+    .modal-sm {width: 94%;}
+    .left,.right{padding: 0;}
+    .modal-body{ padding: 15px;}
+    .content, .grey-bar{padding-left: 15px;padding-right: 15px;}
+    #gajanan-maharaj{position: initial;text-align: center;top:initial;left:initial;}
+    .logo-slogan div:nth-child(2){text-align: center;padding-top: 25px;}
+    .logo-slogan{padding-bottom: 20px;}
+    .custom-nav{padding-right: 0;}
+    .navbar-toggle{z-index: 10;}
+    .col-md-7.text-center.rightWrap{  padding-top: 61%;  padding-bottom: 21%;}
+    .couple{left: 11%;top: -15px;    width: 80%;    z-index: 0;}
+    .text-one, .text-two{ font-size: 20px;  bottom: 13px;}
+    .text-one { right: 20.5%;}
+    .text-two{ bottom: 9px;right: 9.5%;}
+    #mainBg{height: initial;}
+    .one, .two, .three, .four, .five {width: 100%;text-align: center;}
+    .three{padding-top: 20px;}
+    footer .myriad img{padding-left: 0;}
+    header{position: relative;z-index: 10;}
+    .grey-bar h1{padding-top: 10%;font-size: 29px;text-align: center;}
+    .search-data #mSearch.col-md-9{padding-left: 21px;text-align: center;}
+    .bottom #idSearch .myriad{padding-left: 0;padding-bottom: 10px;}
+    .bottom div{padding-bottom: 10px;}
+    .bottom .find{margin-left: 0;}
+    .copyright{padding-top: 24px;padding-bottom: 15px;height: initial; display: initial; text-align: center;align-items: center;}
+    .copyright span{position: relative; bottom: -3px;}
+	.copyright .oneC{padding-top:25px; }
+	.copyright .text-right{text-align: center;padding-top: 8px;padding-bottom: 10px;}	
+    .visible-xs select{font-size: 14px !important; }
+}
